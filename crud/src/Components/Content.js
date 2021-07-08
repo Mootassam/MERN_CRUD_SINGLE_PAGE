@@ -15,14 +15,12 @@ export default function Content() {
 
   return (
     <>
-      <h1>Content</h1>
-      <div className="row">
+      <div className="row p-5">
         <div className="col-md-4">
-          <h2> Form du contact</h2>
           <Form {...{ currentId, setCurrentId }} />
         </div>
-        <div className="col-md-8">
-          <h2> List du contact</h2>
+        <div className="col-md-8 shadow-lg p-3 mb-5 bg-white rounded">
+          <h3> List du contact</h3>
           <div className="container">
             <table className="table">
               <thead>

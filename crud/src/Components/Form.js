@@ -39,7 +39,8 @@ export default function Form({ ...props }) {
 
   return (
     <>
-      <div className="container">
+      <div className="container shadow-lg p-3 mb-5 bg-white rounded">
+        <h3> Form du contact</h3>
         <form onSubmit={Submit}>
           <input
             type="text"
