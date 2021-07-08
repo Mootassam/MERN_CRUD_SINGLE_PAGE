@@ -20,7 +20,7 @@ export default function Content() {
           <Form {...{ currentId, setCurrentId }} />
         </div>
         <div className="col-md-8 shadow-lg p-3 mb-5 bg-white rounded">
-          <h3> List du contact</h3>
+          <h3> List of contact</h3>
           <div className="container">
             <table className="table">
               <thead>
